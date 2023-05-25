@@ -1,22 +1,27 @@
 // 1
-const userName = prompt("Укажіть своє ім'я");
-const userAge = prompt('Укажіть свій вік');
-const firstNumber = +prompt('Перше число');
-const secondNumber = +prompt('Друге число');
-const result = firstNumber + secondNumber;
+// const userName = prompt("Укажіть своє ім'я");
+// const userAge = prompt('Укажіть свій вік');
+// const firstNumber = +prompt('Перше число');
+// const secondNumber = +prompt('Друге число');
+// const result = firstNumber + secondNumber;
 
-console.log('Привіт, ' + userName + ', тобі ' + userAge + '. Сумма чисел ' + result);
+// console.log('Привіт, ' + userName + ', тобі ' + userAge + '. Сумма чисел ' + result);
 
 
 
 
 // 2
-let sentence = 'Я люблю місто ____. Я там останній раз був в _____ році. Також це місто відомо ______.';
-console.log(sentence);
+let city = 'Я люблю місто _____.';
+let year = 'Я там останній раз був в _____ р.';
+let sights = 'Також це місто відомо _____.';
 
-const city = prompt('Укажіть назву міста');
-const year = prompt('Укажіть рік');
-const sights = prompt('Укажіть переваги міста');
+console.log(city + ' ' + year + ' ' + sights);
 
-sentence = 'Я люблю місто ' + city + '. Я там останній раз був в ' + year + ' році. ' + 'Також це місто відомо ' + sights;
-console.log(sentence);
+const cityName = prompt('Укажіть назву міста');
+const cityYear = prompt('Укажіть рік');
+const citySights = prompt('Укажіть переваги міста');
+city = 'Я люблю місто ' + cityName + '.';
+year = 'Я там останній раз був в ' + cityYear + 'р.';
+sights = 'Також це місто відомо ' + citySights + '.';
+
+console.log(city + ' ' + year + ' ' + sights);
