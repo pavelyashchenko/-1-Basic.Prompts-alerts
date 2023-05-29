@@ -24,4 +24,4 @@ city = 'Я люблю місто ' + cityName + '.';
 year = 'Я там останній раз був в ' + cityYear + 'р.';
 sights = 'Також це місто відомо ' + citySights + '.';
 
-console.log(city + ' ' + year + ' ' + sights);
+console.log(city + ' ' + year + ' ' + sights); 
